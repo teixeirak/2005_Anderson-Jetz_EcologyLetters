@@ -1,0 +1,14 @@
+Column,Field,Description,Variable.Codes,Units
+1 / A,class,phylogenetic class,Birds; Mammals,-
+2 / B,species,scientific name,-,-
+3 / C,common.name,common name,-,-
+4 / D,latitude,latitude of study location,-,decimal degrees
+5 / E,longitute,longitude of study location,-,decimal degrees
+6 / F,temp,"average temperature for the month(s) during which study was conducted. When not given in original publication, this was obtained from a global model with 0.5¡ spatial resolution (Legates & Wilmott 1990). ",-,C
+7 / G,NPP,"18-year average of annual NPP,  extracted based on geographic coordinates from the DOLY global model (original spatial resolution 0.5¡; Woodward 1995). ",-,t C ha-1 year-1 
+8 / H,daylength,Day length for the time of study was calculated based upon the latitude and time of year according to the formula given by Campbell & Norman (1998).,-,h
+9 / I,mass.g,body mass- mean for study,-,g
+10 / J,FMR.kJ.day,field metabolic rate measured using the doubly labelled water method- mean for study,-,kJ/day
+11 / K,diet,animal diet,carn- carnivore; herb- herbivore; nect- nectarivore; omn-omnivore,-
+12 / L,reference,number(s) corresponding to references from which data were obtained. These are given in Appendix S1.,-,-
+13 / M,notes,notes regarding corrections to published data set,-,-
